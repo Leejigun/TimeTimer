@@ -14,6 +14,7 @@
 		4BA0753627367C93002083F4 /* TimeTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0753527367C93002083F4 /* TimeTimerTests.swift */; };
 		4BA0754027367C93002083F4 /* TimeTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0753F27367C93002083F4 /* TimeTimerUITests.swift */; };
 		4BA0754227367C93002083F4 /* TimeTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0754127367C93002083F4 /* TimeTimerUITestsLaunchTests.swift */; };
+		4BA0755127370762002083F4 /* TimerFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0755027370762002083F4 /* TimerFaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		4BA0753B27367C93002083F4 /* TimeTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA0753F27367C93002083F4 /* TimeTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTimerUITests.swift; sourceTree = "<group>"; };
 		4BA0754127367C93002083F4 /* TimeTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BA0754E2736B95D002083F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4BA0755027370762002083F4 /* TimerFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		4BA0752327367C92002083F4 /* TimeTimer */ = {
 			isa = PBXGroup;
 			children = (
+				4BA0754F27370740002083F4 /* Timer */,
+				4BA0754E2736B95D002083F4 /* Info.plist */,
 				4BA0752427367C92002083F4 /* TimeTimerApp.swift */,
 				4BA0752627367C92002083F4 /* ContentView.swift */,
 				4BA0752827367C93002083F4 /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				4BA0754127367C93002083F4 /* TimeTimerUITestsLaunchTests.swift */,
 			);
 			path = TimeTimerUITests;
+			sourceTree = "<group>";
+		};
+		4BA0754F27370740002083F4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				4BA0755027370762002083F4 /* TimerFaceView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			files = (
 				4BA0752727367C92002083F4 /* ContentView.swift in Sources */,
 				4BA0752527367C92002083F4 /* TimeTimerApp.swift in Sources */,
+				4BA0755127370762002083F4 /* TimerFaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +436,7 @@
 				DEVELOPMENT_TEAM = 4S9958AXA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +467,7 @@
 				DEVELOPMENT_TEAM = 4S9958AXA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
